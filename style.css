@@ -1,0 +1,60 @@
+body {
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #fff;
+    font-family: Verdana, Geneva, sans-serif;
+    word-break: keep-all;
+    letter-spacing: .5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.grid_wrapper {
+    display: grid;
+}
+
+.grid_container {
+    border-bottom: 1px dashed darkgray;
+    padding: 5%;
+}
+
+.about_me1 {
+    float: left;
+    width: 50%;
+}
+
+.about_me2 {
+    float: right;
+    width: 50%;
+}
+
+.photos {
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
+
+@media only screen and (min-width: 806px) {
+    .photos {
+        float: right;
+        margin-right: 20%;
+        margin-bottom: auto;
+        margin-top: auto;
+        margin-left: 25px;
+        padding: 0;
+    }
+}
+
