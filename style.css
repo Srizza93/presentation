@@ -28,6 +28,7 @@ h1, h2 {
 .grid_container {
     border-bottom: 1px dashed darkgray;
     padding: 15%;
+    text-align: center;
 }
 
 .about_me1 {
