@@ -18,6 +18,11 @@ body {
 h1, h2 {
     text-align: center;
     color: #191970;
+}
+
+h2 {
+    text-align: center;
+    color: #191970;
     padding-bottom: 50px;
 }
 
