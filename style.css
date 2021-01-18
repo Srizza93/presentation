@@ -24,6 +24,9 @@ h1 {
 h2 {
     text-align: center;
     color: #191970;
+}
+
+.titles_images h2 {
     padding-bottom: 50px;
 }
 
