@@ -18,12 +18,18 @@ body {
 h1, h3 {
     text-align: center;
     color: #191970;
+    margin-top: 80px;
 }
 
 h2 {
     text-align: center;
     color: #191970;
     padding-bottom: 50px;
+}
+
+h3 {
+    text-align: center;
+    color: #191970;
 }
 
 .grid_wrapper {
