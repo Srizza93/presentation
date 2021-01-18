@@ -31,6 +31,10 @@ h1, h2 {
     text-align: center;
 }
 
+li {
+    text-decoration: none;
+}
+
 .about_me1 {
     float: left;
     width: 50%;
