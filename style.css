@@ -27,9 +27,13 @@ h2 {
     color: #191970;
 }
 
+/* Titles where there are no images in div */
+
 .titles_images h2 {
     padding-bottom: 50px;
 }
+
+/* Divs with no images                     */
 
 .noimages_div {
     padding-bottom: 25px;
@@ -45,7 +49,6 @@ h3 {
 }
 
 .grid_container {
-    border-bottom: 1px dashed darkgray;
     margin: 10%;
     text-align: center;
     background-color: white;
@@ -60,15 +63,22 @@ li {
     text-align: center;
 }
 
+/* About me div             */
+
 .about_me1 {
     float: left;
     width: 50%;
+    margin: 5px;
+    border-right: 1px dashed grey;
 }
 
 .about_me2 {
     float: right;
     width: 50%;
+    margin: 5px;
 }
+
+/* ________________________*/
 
 .photos {
     width: 300px;
@@ -78,6 +88,8 @@ li {
     margin-right: auto;
     padding: 5%;
 }
+
+/* Responsive            */
 
 @media only screen and (min-width: 806px) {
     .photos {
