@@ -68,14 +68,14 @@ li {
 .about_me1 {
     float: left;
     width: 50%;
-    margin: 5px;
+    padding: 5px;
     border-right: 1px dashed grey;
 }
 
 .about_me2 {
     float: right;
     width: 50%;
-    margin: 5px;
+    padding: 5px;
 }
 
 /* ________________________*/
