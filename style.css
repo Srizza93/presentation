@@ -38,10 +38,6 @@ h2 {
     padding-bottom: 25px;
 }
 
-.main_title {
-    background-color: orange;
-}
-
 h3 {
     text-align: center;
     color: #191970;
@@ -56,6 +52,10 @@ h3 {
     text-align: center;
     background-color: white;
     min-width: 350px;
+}
+
+.main_title {
+    background-color: orange;
 }
 
 ul {
